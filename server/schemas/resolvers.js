@@ -2,16 +2,25 @@ const {FoodItem, Menu} = require('../models');
 
 const resolvers = {
     Query: {
-        Menus:async () => {
-            return await Menu.find({}).populate('FoodItems').populate({
-                path: 'FoodItems'
-            });
+        Menus: async () => {
+            return Menu.find();
+        },
+        Menu: async (parent, {menuID}) => {
+            return Menu.findOne({_id: menuID});
         },
         FoodItems: async () => {
-            return await FoodItem.find({}).populate('Menu');
+            return FoodItem.find();
         },
+        FoodItem: async (parent, {foodItemID}) => {
+            return FoodItem.find({_id: foodItemID});
+        }
 
-    }
+    },
+
+    Mutation: {
+        
+
+    },
 };
 
 module.exports = resolvers;
