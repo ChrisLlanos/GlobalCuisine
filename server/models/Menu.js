@@ -6,17 +6,17 @@ const MenuSchema = new Schema(
             type:String,
             required:true,
             unique:true,
-            trim: true
+            trim: true,
         },
         summary: {
             type: String,
             required: true,
-            trim: true
+            trim: true,
         },
-        foodItem: {
+        foodItems: [{
             type: Schema.Types.ObjectId,
-            ref: 'FoodItem'
-        }
+            ref: "FoodItem",
+        }] 
 
     }
 );

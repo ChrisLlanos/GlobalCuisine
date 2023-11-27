@@ -6,20 +6,17 @@ const foodItemSchema = new Schema(
             type:String,
             required:true,
             unique:true,
-            trim: true
+            trim: true,
         },
         price: {
             type: Number,
-            required: true
         },
         description: {
             type: String,
-            required: true,
-            trim: true
+            trim: true,
         }
     }
 );
 
 const FoodItem = model('FoodItem', foodItemSchema);
-
 module.exports = FoodItem;

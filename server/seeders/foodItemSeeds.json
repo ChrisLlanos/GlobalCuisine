@@ -1,0 +1,11 @@
+[
+    {"name": "Fettucine Alfredo","price": 13.99, "description": "An emulsified sauce of parmesean, butter, and cream added to al dente pasta with roasted chicken on the side."},
+    {"name": "Primavera Pasta", "price": 10.99, "description": "An emulsified sauce of basil, pine nuts and cream added to bow-tie pasta with mixed veggies for a refreshing taste."},
+    {"name": "Tiramisu", "price": 5.00, "description": "A classic dessert made with real coffee"},
+    {"name": "Al Pastor Tacos", "price": 4.99, "description": "Marinated for hours and cooked to perfection"},
+    {"name": "Chicken Fajita Tacos", "price": 5.99, "description": "Your classic grilled-chicken taste paired with flour tortilla and peppers"},
+    {"name": "Chicken Flautas", "price": 4.50, "description": "Crispy fried texture on the outside and cheesy insides"},
+    {"name": "Cheeseburger", "price": 8.99, "description": "Can't go wrong with this American classic: served with pickles, tomatoes, and lettuce"},
+    {"name": "French Fries", "price": 3.99, "description": "Cooked to golden perfection"},
+    {"name": "Hot Dog", "price": 4.50, "description": "Options to add ketchup, mustard, relish, and more"}
+]
