@@ -1,7 +1,7 @@
 const typeDefs = `
     type User {
         id: ID!
-        name: String!
+        username: String!
         email: String!
         cart: Cart
     }
@@ -27,10 +27,10 @@ const typeDefs = `
     }
 
     type Query{
-        getCart(userId: ID!): Cart
-        getFoodItem(foodItemId: ID!): FoodItem
-        getMenu(menuId: ID!): Menu
-        getMenus: [Menu]
+        Cart(userId: ID!): Cart
+        FoodItem(foodItemId: ID!): FoodItem
+        Menu(menuId: ID!): Menu
+        Menus: [Menu]
     }
     type Mutation {
         createUser(username: String!, email: String!): User

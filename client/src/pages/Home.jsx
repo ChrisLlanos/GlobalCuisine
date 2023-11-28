@@ -6,6 +6,6 @@ import DetailedMenu from '../components/DetailedMenu';
 import { QUERY_MENU } from '../utils/queries';
 
 const Home = () => {
-
+    
 }
 
