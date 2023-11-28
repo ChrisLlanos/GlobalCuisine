@@ -5,20 +5,20 @@ const resolvers = {
         // getUser: async (parent, {userId}) =>{
         //     return User.findById({_id: userId});
         // },
-        getCart: async (parent, {userId}) =>{
+        Cart: async (parent, {userId}) =>{
             return Cart.findById({User: userId});
         },
         //probably don't need to populate all foodItems here just display Menu info...
-        getMenus: async () => {
+        Menus: async () => {
             return Menu.find({});
         },
-        getMenu: async (parent, {menuId}) => {
+        Menu: async (parent, {menuId}) => {
             return Menu.findById({_id: menuId}).populate('foodItems');
         },
         // getFoodItems: async () => {
         //     return FoodItem.find({});
         // },
-        getFoodItem: async (parent, {foodItemId}) => {
+        FoodItem: async (parent, {foodItemId}) => {
             return FoodItem.findById({_id: foodItemId});
         }
 
