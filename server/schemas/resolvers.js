@@ -2,7 +2,7 @@ const {FoodItem, Menu, User, Cart} = require('../models');
 
 const resolvers = {
     Query: {
-        // getUser: async (parent, {userId}) =>{
+        // User: async (parent, {userId}) =>{
         //     return User.findById({_id: userId});
         // },
         Cart: async (parent, {userId}) =>{
@@ -58,9 +58,9 @@ const resolvers = {
           }
         },
         //Add food item to cart
-        addToCart: async (parent,{cartId, foodItemId}) =>{
+        addToCart: async (parent,{userId, foodItemId}) =>{
             try{
-                const cart = await Cart.findById({_id: cartId});
+                const cart = await Cart.findById({_id: userId});
                 const foodItem = await FoodItem.findById({_id: foodItemId});
 
                 if(!cart || !foodItem){

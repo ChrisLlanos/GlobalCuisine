@@ -2,24 +2,23 @@ import { gql } from '@apollo/client';
 
 export const QUERY_MENUS = gql`
     query getMenus {
-        menu {
-            _id
+        Menus {
+            id
             name
             summary
-            foodItems
         }
     }
 
-`
+`;
 
 export const QUERY_MENU = gql`
     query getMenu($menuId: ID!) {
-        menu(menuId: $menuId) {
-            _id
+        Menu(menuId: $menuId) {
+            id
             name
             summary
             foodItems {
-                _id
+                id
                 name
                 price
                 description
@@ -28,4 +27,4 @@ export const QUERY_MENU = gql`
 
     }
 
-`
+`;
