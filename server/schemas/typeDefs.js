@@ -35,7 +35,7 @@ const typeDefs = `
     type Mutation {
         createUser(username: String!, email: String!): User
         createCart(userId: ID!): Cart
-        addToCart(cartId: ID!, foodItemId: ID!): Cart
+        addToCart(userId: ID!, foodItemId: ID!): Cart
         removeFromCart(cartId: ID!, foodItemId: ID!): Cart
     }
 `;

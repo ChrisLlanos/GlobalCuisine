@@ -8,7 +8,6 @@ const cartSchema = new Schema(
         }],
         totalPrice: {
             type: Number,
-            required: true,
         },
         user: {
             type: Schema.Types.ObjectId,

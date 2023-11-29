@@ -1,11 +1,10 @@
 import ReactDOM from 'react-dom/client'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 
-import App from './App.js'
+import App from './App.jsx'
 import Home from './pages/Home.jsx'
-import SingleMenu from './pages/SingleMenu.js'
-import Cart from '.pages/Cart.js'
-import Error from './pages/Error.js'
+import Error from './pages/Error.jsx'
+import Menu from './pages/Menu.jsx'
 
 const router = createBrowserRouter([
   {
@@ -18,8 +17,8 @@ const router = createBrowserRouter([
         element: <Home />,
       },
       {
-        path: '/thoughts/:thoughtId',
-        element: <SingleThought />,
+        path: '/menu',
+        element: <Menu />,
       },
     ],
   },
