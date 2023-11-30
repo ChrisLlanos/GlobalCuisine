@@ -22,9 +22,24 @@ export const QUERY_MENU = gql`
                 name
                 price
                 description
+                linkToImage
             }
         }
 
     }
 
+`;
+
+export const QUERY_CART = gql`
+    query getCart($cartId: ID!) {
+        Cart(cartId: $cartId) {
+            items{
+                name
+                price
+                description
+                linkToImage
+            }
+            totalPrice
+        }
+    }
 `;

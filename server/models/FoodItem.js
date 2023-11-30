@@ -14,6 +14,9 @@ const foodItemSchema = new Schema(
         description: {
             type: String,
             trim: true,
+        },
+        linkToImage: {
+            type: String,
         }
     }
 );

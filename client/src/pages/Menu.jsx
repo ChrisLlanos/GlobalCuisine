@@ -25,7 +25,10 @@ const Menu = () => {
                             <span className='text-white' style={{ fontSize: '1rem' }}>
                                 {foodItem.description}
                                 <br />
+                                <img src={foodItem.linkToImage} height="100" width="150"></img>
+                                <br />
                                 ${foodItem.price}
+                                <br />
                                 <button className='btn btn-lg btn primary m-2'>
                                     Add to cart!
                                 </button>
