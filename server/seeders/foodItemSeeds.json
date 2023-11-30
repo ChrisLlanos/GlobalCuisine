@@ -1,11 +1,11 @@
 [
-    {"name": "Fettucine Alfredo","price": 13.99, "description": "An emulsified sauce of parmesean, butter, and cream added to al dente pasta with roasted chicken on the side."},
-    {"name": "Primavera Pasta", "price": 10.99, "description": "An emulsified sauce of basil, pine nuts and cream added to bow-tie pasta with mixed veggies for a refreshing taste."},
-    {"name": "Tiramisu", "price": 5.00, "description": "A classic dessert made with real coffee"},
-    {"name": "Al Pastor Tacos", "price": 4.99, "description": "Marinated for hours and cooked to perfection"},
-    {"name": "Chicken Fajita Tacos", "price": 5.99, "description": "Your classic grilled-chicken taste paired with flour tortilla and peppers"},
-    {"name": "Chicken Flautas", "price": 4.50, "description": "Crispy fried texture on the outside and cheesy insides"},
-    {"name": "Cheeseburger", "price": 8.99, "description": "Can't go wrong with this American classic: served with pickles, tomatoes, and lettuce"},
-    {"name": "French Fries", "price": 3.99, "description": "Cooked to golden perfection"},
-    {"name": "Hot Dog", "price": 4.50, "description": "Options to add ketchup, mustard, relish, and more"}
+    {"name": "Fettucine Alfredo","price": 13.99, "description": "An emulsified sauce of parmesean, butter, and cream added to al dente pasta with roasted chicken on the side.", "linkToImage": "https://www.allrecipes.com/thmb/zEWkFz7sx6TExYAp3qlovuK-LFQ=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/8065111-b0dbefd1f1b343259810f4771829f970.jpg"},
+    {"name": "Primavera Pasta", "price": 10.99, "description": "An emulsified sauce of basil, pine nuts and cream added to bow-tie pasta with mixed veggies for a refreshing taste.", "linkToImage": "https://familystylefood.com/wp-content/uploads/2023/05/Pasta-Primavera-bowl.jpg"},
+    {"name": "Tiramisu", "price": 5.00, "description": "A classic dessert made with real coffee", "linkToImage": "https://t4.ftcdn.net/jpg/02/72/54/39/360_F_272543918_nR0qWZvqmgZKp0SpSZBx9nTwBBXZD4cr.jpg"},
+    {"name": "Al Pastor Tacos", "price": 4.99, "description": "Marinated for hours and cooked to perfection", "linkToImage": "https://www.jocooks.com/wp-content/uploads/2022/04/tacos-al-pastor-feature-1.jpg"},
+    {"name": "Chicken Fajita Tacos", "price": 5.99, "description": "Your classic grilled-chicken taste paired with flour tortilla and peppers", "linkToImage": "https://healthfulblondie.com/wp-content/uploads/2021/09/chicken-fajita-tacos-6-683x1024.jpg"},
+    {"name": "Chicken Flautas", "price": 4.50, "description": "Crispy fried texture on the outside and cheesy insides", "linkToImage": "https://www.carolinescooking.com/wp-content/uploads/2022/11/chicken-flautas-featured-pic-sq.jpg"},
+    {"name": "Cheeseburger", "price": 8.99, "description": "Can't go wrong with this American classic: served with pickles, tomatoes, and lettuce", "linkToImage": "https://www.shutterstock.com/image-photo/tasty-appetizing-hamburger-cheeseburger-260nw-1053796058.jpg"},
+    {"name": "French Fries", "price": 3.99, "description": "Cooked to golden perfection", "linkToImage": "https://www.fifteenspatulas.com/wp-content/uploads/2011/09/French-Fries-Recipe.jpg"},
+    {"name": "Hot Dog", "price": 4.50, "description": "Options to add ketchup, mustard, relish, and more", "linkToImage": "https://t3.ftcdn.net/jpg/05/85/99/60/360_F_585996070_hzWAqLeQLfgla0tG6njZZBSVmdaY9LhP.jpg"}
 ]

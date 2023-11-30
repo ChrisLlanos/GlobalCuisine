@@ -5,8 +5,8 @@ const resolvers = {
         // User: async (parent, {userId}) =>{
         //     return User.findById({_id: userId});
         // },
-        Cart: async (parent, {userId}) =>{
-            return Cart.findById({User: userId});
+        Cart: async (parent, {cartId}) =>{
+            return Cart.findById({_id: cartId}).populate('items');
         },
         //probably don't need to populate all foodItems here just display Menu info...
         Menus: async () => {
@@ -58,9 +58,9 @@ const resolvers = {
           }
         },
         //Add food item to cart
-        addToCart: async (parent,{userId, foodItemId}) =>{
+        addToCart: async (parent,{cartId, foodItemId}) =>{
             try{
-                const cart = await Cart.findById({_id: userId});
+                const cart = await Cart.findById({_id: cartId});
                 const foodItem = await FoodItem.findById({_id: foodItemId});
 
                 if(!cart || !foodItem){
